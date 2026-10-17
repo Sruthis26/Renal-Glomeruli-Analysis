@@ -1,0 +1,5 @@
+numpy
+opencv-python
+shapely
+openslide-python
+openslide-bin

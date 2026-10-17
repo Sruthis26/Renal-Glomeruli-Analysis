@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Generated pipeline outputs
+output/
+qupath_projects/
+# Large datasets and uploaded files
+dataset/
+uploads/
+
+# Generated outputs and QuPath projects
+output/
+qupath_projects/
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Java / QuPath crash logs
+hs_err_pid*.log
+replay_pid*.log
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Large QuPath image files
+common_qupath/*.svs

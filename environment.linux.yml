@@ -1,0 +1,11 @@
+name: glomeruli
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - opencv
+  - pillow
+  - shapely
+  - openslide
+  - openslide-python

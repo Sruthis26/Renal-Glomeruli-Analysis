@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Renal Glomeruli Analysis
 
 This project computes lumen-based glomeruli metrics from `.svs` + `.svs.json` annotations, writes Python overlays, exports QuPath CSVs, performs artery flagging + severity grading, generates case summaries (JSON + PDF), and optionally runs QuPath headless.
@@ -152,3 +153,7 @@ Then open a new terminal and rerun.
   - Rename JSON to `<svs_stem>.svs.json` or use the matching file.
 - `Could not find QuPath executable`:
   - Set `QUPATH_EXE` as shown above.
+=======
+# Renal-Glomeruli-Analysis
+Python-based renal image analysis system that analyzes annotated kidney tissue images, extracts glomerular features, assesses vessel lumen narrowing, and generates CSV results and visual overlays to support renal artery blockage assessment.
+>>>>>>> 99d5db0ad7cccb72e341b33f6545b76d28f82284
